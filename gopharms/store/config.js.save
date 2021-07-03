@@ -1,0 +1,6 @@
+http://18.231.21.29:3000/export const API = "http://http://18.231.21.29:3000",
+             versao = "v1",
+             loja = "60ce1b630d1ef3263cc0788d",
+             baseImg = API + "/public/images/";
+
+

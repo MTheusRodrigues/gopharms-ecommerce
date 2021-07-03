@@ -1,0 +1,4 @@
+{
+    "dbTest": "mongodb://matheus:Stiloloko10591@localhost:27017/gopharms-api-teste?authSource=admin",
+    "dbProduction": "mongodb://matheus:Stiloloko10591@localhost:27017/gopharms-api?authSource=admin"
+}
