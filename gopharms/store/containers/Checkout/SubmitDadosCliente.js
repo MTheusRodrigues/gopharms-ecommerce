@@ -13,7 +13,7 @@ class SubmitDadosCliente extends Component {
             this.props.permitir();
             this.setState({ aviso: null })
         } else {
-            this.setState({ aviso: { status: false, message: error.message } });
+            //this.setState({ aviso: { status: false, message: error.message } });
         }
     }
 

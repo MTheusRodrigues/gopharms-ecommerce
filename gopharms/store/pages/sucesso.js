@@ -8,7 +8,7 @@ import Rodape from '../containers/Rodape';
 export default class Sucesso extends Component {
     render(){
         return(
-            <Layout title="Go Pharms - Menores preços na palma da mão">
+            <Layout title="Go Pharmes - Menores preços na palma da mão">
                 <Cabecalho simples />
                 <SucessoContainer />
                 <Rodape />

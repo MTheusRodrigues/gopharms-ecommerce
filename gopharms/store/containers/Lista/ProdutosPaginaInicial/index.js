@@ -11,7 +11,7 @@ class ProdutosPaginaInicial extends Component {
                 <br />
                 <Produtos
                     produtos={ this.props.produtos ? this.props.produtos.docs : [] }
-                    itensPorLinha={6} />
+                    itensPorLinha={4} />
             </div>
         )
     }

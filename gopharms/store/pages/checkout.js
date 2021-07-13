@@ -18,7 +18,7 @@ export default class Checkout extends Component {
     render(){
         return(
             <Layout 
-                title="Checkout | Go Pharms - Menores produtos na palma da mão"
+                title="Checkout | Go Pharmes - Menores produtos na palma da mão"
                 pagSeguro >
                 <Cabecalho simples />
                 <CheckoutContainer />

@@ -20,7 +20,7 @@ class Carrinho extends Component {
 
     render(){
         return(
-            <Layout title="Carrinho | Go Pharms - Menor preço na  palma da mão">
+            <Layout title="Carrinho | Go Pharmes - Menor preço na  palma da mão">
                 <Cabecalho/>
                 <CarrinhoContainer />
                 <Rodape />

@@ -15,7 +15,7 @@ class CardCarrinho extends Component {
         return (
             <div className="itens-cabecalho flex-2 flex flex-center">
               
-                <Link href="/area-cliente">
+                <Link href="/area-cliente/mapbox">
                     <div className="item-cabecalho">
                         <i>
                         <FaMapMarkerAlt size={22}/>

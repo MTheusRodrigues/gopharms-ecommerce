@@ -8,7 +8,7 @@ import ProdutosRelacionados from './ProdutosRelacionados';
 export default class ProdutoContainer extends Component {
     render(){
         return (
-            <div className="container-big Produto">
+            <div className="container-big Produto" style={{marginTop:'8rem'}}>
                 <Hero />
                 <Descricao />
                 <Avaliacoes />

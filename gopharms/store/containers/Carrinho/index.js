@@ -25,7 +25,7 @@ class CarrinhoContainer extends Component {
 
     render(){
         return (
-            <div className="container Carrinho">
+            <div className="container Carrinho" style={{marginTop:'8rem'}}>
                 <h2>Detalhes do Pedido</h2>
                 <br />
                 <ListaDeProdutos />

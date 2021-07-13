@@ -6,7 +6,7 @@ import FormularioDados from './FormularioDados';
 class DadosContainer extends Component {
     render(){
         return (
-            <div className="Dados-Container container-big flex horizontal">
+            <div className="Dados-Container container-big flex horizontal" style={{marginTop:'8rem'}}>
                 <MenuAreaDoCliente />
                 <FormularioDados />
             </div>

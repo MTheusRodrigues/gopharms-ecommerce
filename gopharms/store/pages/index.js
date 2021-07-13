@@ -27,7 +27,7 @@ class Index extends Component {
 
     render(){
         return(
-            <Layout title="Go Pharms - Menor preço na  palma da mão">
+            <Layout title="Go Pharmes - Menor preço na  palma da mão">
                 <Cabecalho />
                 <Banners />
                 <Beneficios />

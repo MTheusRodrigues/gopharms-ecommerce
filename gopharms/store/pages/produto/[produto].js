@@ -28,7 +28,7 @@ class ProdutoPage extends Component {
     render(){
         const { produto } = this.props;
         return(
-            <Layout title={`${produto ? produto.titulo : ""} | Go Pharms - Menores produtos na palma da mão`}>
+            <Layout title={`${produto ? produto.titulo : ""} | Go Pharmes - Menores produtos na palma da mão`}>
                 <Cabecalho />
                 <Produto />
                 <Rodape />

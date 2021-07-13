@@ -22,7 +22,7 @@ class AreaDoCliente extends Component {
 
     render(){
         return(
-            <Layout title="Minha Conta | Go Pharms - Menor preço na  palma da mão">
+            <Layout title="Minha Conta | Go Pharmes - Menor preço na  palma da mão">
                 <Cabecalho />
                 <AreaDoClienteContainer />
                 <Rodape />

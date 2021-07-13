@@ -22,7 +22,7 @@ class Categoria extends Component {
     render(){
         const { categoria } = this.props;
         return(
-            <Layout title={`${categoria ? categoria.nome : "-"} | Go Phamrs - Menores preços na pala da mão`}>
+            <Layout title={`${categoria ? categoria.nome : "-"} | Go Pharmes - Menores preços na pala da mão`}>
                 <Cabecalho />
                 <ProdutosCategoria />
                 <Rodape />

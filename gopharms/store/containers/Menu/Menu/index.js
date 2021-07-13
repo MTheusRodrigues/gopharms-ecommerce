@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { withRouter } from 'next/router';
 import { connect } from 'react-redux';
 import actions from '../../../redux/actions';
+import { FaMapMarkerAlt } from 'react-icons/fa'
+
 
 class MenuAreaDoCliente extends Component {
 
@@ -18,7 +20,9 @@ class MenuAreaDoCliente extends Component {
         return (
 
             
-                
+              <div className="MenuConatiner">
+
+             
                 <div className="flex flex-center ">
                     <div className="categorias-menu">
                         <Link href="/">
@@ -37,9 +41,28 @@ class MenuAreaDoCliente extends Component {
                             </span>
                         </Link>
                     </div>
+                    
                 </div>
-                
 
+                
+                <div className="LogoClientConatiner">
+                    <div className="LogoClient">
+                    <img src='../../../static/logoMax.png' width="65px" height="65px" />
+                   
+                    </div>
+                    <div className="LogoClientP">
+                        <p>Drogarias Max - Nova Iguaçu</p>
+                    </div>
+
+                    <div className="item-logo-client">
+                        <i>
+                        <FaMapMarkerAlt size={22}/>
+                        </i>
+                        
+                    </div>
+                </div>
+
+</div>  
             
         )
     }

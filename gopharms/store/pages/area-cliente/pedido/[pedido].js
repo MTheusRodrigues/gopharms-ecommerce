@@ -24,7 +24,7 @@ class Pedido extends Component {
     render(){
         const { query } = this.props;
         return(
-            <Layout title="Pedido | Go Pharms - Menores preços na palma da mão">
+            <Layout title="Pedido | Go Pharmes - Menores preços na palma da mão">
                 <Cabecalho />
                 <PedidoContainer query={query} />
                 <Rodape />

@@ -34,7 +34,7 @@ const enviarNovoPedido = ({ usuario, pedido }) => {
         <a href="${loja}">Acesse a loja para saber mais.</a>
         <br /><br />
         <p>Atenciosamente,</p>
-        <p>Equipe - Loja TI</p>
+        <p>Equipe - Go Pharm´s</p>
     `;
     _send({
         subject: "Pedido Recebido - Loja TI",

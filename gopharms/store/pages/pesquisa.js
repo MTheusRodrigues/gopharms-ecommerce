@@ -23,7 +23,7 @@ class Pesquisa extends Component {
     render(){
         const { termo } = this.props;
         return(
-            <Layout title={`Resultados para ${termo ? termo : "-"} | Go Pharms - Menores preços na pama da mão`}>
+            <Layout title={`Resultados para ${termo ? termo : "-"} | Go Pharmes - Menores preços na pama da mão`}>
                 <Cabecalho />
                 <ProdutosPesquisa />
                 <Rodape />

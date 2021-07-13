@@ -13,7 +13,7 @@ import { API, versao, loja } from '../../config';
 import { getHeaders } from './helpers';
 
 export const fetchProdutosPaginaInicial = () => (dispatch) => {
-    axios.get(`${API}/${versao}/api/produtos/disponiveis?loja=${loja}&offset=${0}&limit=${4}&sortType=${"preco-crescente"}`)
+    axios.get(`${API}/${versao}/api/produtos/disponiveis?loja=${loja}&offset=${0}&limit=${80}&sortType=${"preco-crescente"}`)
     .then((response) => dispatch({ type: FETCH_PRODUTOS, payload: response.data }))
     .catch(e => console.log(e));
 }
